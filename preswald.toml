@@ -1,0 +1,20 @@
+[project]
+title = "Netflix Movies Explorer"      
+version = "0.1.0"
+port = 8501
+slug = "netflix-movies-explorer"        
+entrypoint = "hello.py" 
+
+[branding]
+name = "Netflix Explorer"                
+logo = "images/netflix_logo.png"         
+favicon = "images/netflix_favicon.ico"    
+primaryColor = "#E50914"
+
+[data.netflix_csv]
+type = "csv"
+path = "data/netflix.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
